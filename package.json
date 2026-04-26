@@ -1,0 +1,47 @@
+{
+  "name": "earth-live-events",
+  "description": "A production-ready Earth event monitoring dashboard powered by NASA EONET API v3. Built with React, Vite, and modern web technologies.",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "vite": "^8.0.10"
+  },
+  "keywords": [
+    "nasa",
+    "earth",
+    "events",
+    "eonet",
+    "react",
+    "vite",
+    "dashboard",
+    "monitoring"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/earth-live-events.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/earth-live-events/issues"
+  },
+  "homepage": "https://github.com/yourusername/earth-live-events#readme"
+}
