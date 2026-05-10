@@ -1,57 +1,58 @@
 :root {
-  --accent: #4cafff;
-  --accent-dark: #2d8ed9;
-  --accent-light: #7dd3fc;
-  --bg-primary: #0a0e27;
-  --bg-secondary: #1a1f3a;
-  --text-primary: #e0e6ed;
-  --text-secondary: #8b92a9;
-  --border-color: rgba(76, 175, 255, 0.1);
+  --accent: #54adeb;
+  --accent-light: #9bd8ff;
+  --border-color: rgba(148, 163, 184, 0.16);
+  --text-primary: #e5e7eb;
+  --text-secondary: #aeb7c4;
+  --text-muted: #7d8794;
+
+  color-scheme: dark;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
   box-sizing: border-box;
 }
 
-html,
-body,
-#root {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+html {
+  min-width: 320px;
+  background: #05070d;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
-  color: #e0e6ed;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button,
+input,
+select {
+  font: inherit;
 }
 
-/* Remove default scrollbar styling and create custom one */
+::selection {
+  color: #020617;
+  background: var(--accent-light);
+}
+
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(10, 14, 39, 0.5);
+  background: #05070d;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(76, 175, 255, 0.3);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(76, 175, 255, 0.5);
+  border: 2px solid #05070d;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.36);
 }
